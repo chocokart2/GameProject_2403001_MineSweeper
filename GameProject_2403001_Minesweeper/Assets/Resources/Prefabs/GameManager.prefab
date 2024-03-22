@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7420556087591305596}
+  - component: {fileID: 2932969573703238377}
+  - component: {fileID: 8246839708278791852}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -31,3 +33,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2932969573703238377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474500240169368441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1991b2cd7e13a499918d4a473df2f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeX: 25
+  sizeY: 25
+  bombCount: 156
+--- !u!114 &8246839708278791852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474500240169368441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb050210556a98c4a9cbc8fb6f9a8943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
